@@ -123,6 +123,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!20 &77311182 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 3355997934936558552, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+  m_PrefabInstance: {fileID: 1767222292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &534901434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3355997933788464947, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+  m_PrefabInstance: {fileID: 1767222292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &714619498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3355997934270379128, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+  m_PrefabInstance: {fileID: 1767222292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &714619499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714619498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 77311182}
+  m_OriginBaseGameObject: {fileID: 714619498}
+  m_CameraFloorOffsetObject: {fileID: 534901434}
+  m_RequestedTrackingOriginMode: 2
+  m_CameraYOffset: 1.1176
 --- !u!1 &1101437215
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +468,38 @@ PrefabInstance:
       propertyPath: m_TrackingStateInput.m_Action.m_Name
       value: Tracking State Input
       objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_UIScrollAction.m_Action.m_Id
+      value: a512e464-d2fd-4179-b258-8f24ce9f705c
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_IsTrackedAction.m_Action.m_Id
+      value: 491558e8-e6ff-46d1-83ef-4d62bc751d65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Id
+      value: f918b266-d2a1-4035-ba44-7fc1affbff56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Id
+      value: f0d2fbff-d7b2-4d72-8753-672690fcd4e9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Id
+      value: 488838b0-01ee-427b-b235-b9b45fe15946
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Id
+      value: 222948c2-0821-48e0-9a41-cf71e2217cc2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448723, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
+      value: f39a8fb1-27bc-4e71-bc8f-e14b6847b9db
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935585448725, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 2091328970}
     - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
       propertyPath: m_UIScrollAction.m_Action.m_Id
       value: 2d17fae3-4ed3-40fa-bad7-ac42da7c036b
@@ -443,6 +507,10 @@ PrefabInstance:
     - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
       propertyPath: m_IsTrackedAction.m_Action.m_Id
       value: 598f93da-e2b2-4611-9222-73d8fab35061
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_UIScrollAction.m_UseReference
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3355997935591170772, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
       propertyPath: m_SelectActionValue.m_Action.m_Id
@@ -464,10 +532,17 @@ PrefabInstance:
       propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Id
       value: c5ac7408-9e83-42e4-9779-ba3f42aed28e
       objectReference: {fileID: 0}
+    - target: {fileID: 3355997935591170774, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 2091328970}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3355997934270379128, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 714619499}
   m_SourcePrefab: {fileID: 100100000, guid: d04ad2de10bfe410b92adec059bc0154, type: 3}
 --- !u!1001 &2091328969
 PrefabInstance:
@@ -526,6 +601,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef1cc68166768b44191f10b9f9c17292, type: 3}
+--- !u!114 &2091328970 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8326462224639709735, guid: ef1cc68166768b44191f10b9f9c17292, type: 3}
+  m_PrefabInstance: {fileID: 2091328969}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2144438284
 PrefabInstance:
   m_ObjectHideFlags: 0
