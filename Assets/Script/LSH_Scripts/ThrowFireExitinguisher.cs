@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class ThrowFireExitinguisher : MonoBehaviour
 {
+    public ParticleSystem particle;
+
     private void OnTriggerEnter(Collider collider)
     {
         if(collider.gameObject.layer == LayerMask.NameToLayer("Fire"))
         {
             Debug.Log("접촉했습니다.");
-            StartCoroutine(putOutFire(collider.gameObject));
+            particle = collider.GetComponent<ParticleSystem>();
+            particle.Stop(); //particle system일경우 파티클 재생을 멈추기
+            //StartCoroutine(putOutFire(collider.gameObject)); VFX가 아닌 오브젝트일 경우 scale조정
         }
     }
 
