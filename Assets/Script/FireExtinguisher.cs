@@ -1,4 +1,6 @@
 using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
+
 using UnityEngine;
 
 public class FireExtinguisher : MonoBehaviour
@@ -7,6 +9,8 @@ public class FireExtinguisher : MonoBehaviour
     public ParticleSystem spray;
     public Slider gaugeSlider; // 게이지 UI
 
+    private XRGrabInteractable grabInteractable;
+
     public float maxGauge = 100f; // 최대 게이지 양
     public float gaugeConsumptionRate = 20f; // 게이지 사용 속도
     private float currentGauge; // 현재 게이지 양
@@ -14,15 +18,19 @@ public class FireExtinguisher : MonoBehaviour
 
     void Start()
     {
+        grabInteractable = GetComponent<XRGrabInteractable>();
         currentGauge = maxGauge;
     }
 
     void Update()
     {
         // 마우스 왼쪽 버튼을 누르는 동안
-        if (Input.GetMouseButton(0))
+        if (grabInteractable.isSelected)
         {
-            Spray();
+            if (Input.GetMouseButton(0))
+            {
+                Spray();
+            }
         }
         else
         {
@@ -68,6 +76,6 @@ public class FireExtinguisher : MonoBehaviour
 
     private void UpdateGaugeUI()
     {
-        gaugeSlider.value = currentGauge / maxGauge;
+        //gaugeSlider.value = currentGauge / maxGauge;
     }
 }
