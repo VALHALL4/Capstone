@@ -15,6 +15,7 @@ TagManager:
   - active
   - two
   - false
+  - VRHead
   layers:
   - Default
   - TransparentFX
