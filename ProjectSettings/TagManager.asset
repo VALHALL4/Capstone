@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Right Hand
+  - Left Hand
+  - one
+  - true
+  - Play_er
+  - non_active
+  - three
+  - four
+  - active
+  - two
+  - false
   layers:
   - Default
   - TransparentFX
