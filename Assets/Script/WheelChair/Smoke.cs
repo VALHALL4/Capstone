@@ -20,7 +20,6 @@ public class Smoke : MonoBehaviour
         if(other.gameObject.CompareTag("VRHead"))
         {
             this.elapsedTime += Time.deltaTime;
-
             if(this.elapsedTime >= 5f)
             {
                 //5초 이상 되었을 시
