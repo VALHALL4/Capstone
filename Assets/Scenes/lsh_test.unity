@@ -1811,12 +1811,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: a4260fa3-7632-4858-8545-3030b2cf4236
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 08da9a26-ccf1-4f64-a8ba-1b3557e02946
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -1839,12 +1839,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: 77576573-b316-4e4f-a96b-2a2eed88c708
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 67eaec6c-5e85-4949-88c6-f9c89bb5d62d
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -1867,12 +1867,12 @@ MonoBehaviour:
       m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: Integer
-      m_Id: 
+      m_Id: ef1ef749-f378-4a65-9646-1f3fa967c877
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: d56a54f7-91dd-45ac-aa9f-994d3f95ea4d
         m_Path: <XRHMD>/trackingState
         m_Interactions: 
         m_Processors: 
