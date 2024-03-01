@@ -50,6 +50,9 @@ public class FireExtinguisher : MonoBehaviour
         }
     }
 
+
+    
+
     private void Spray()
     {
         if (!spray.isPlaying && currentGauge > 0)
