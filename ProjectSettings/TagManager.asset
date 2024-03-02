@@ -16,6 +16,7 @@ TagManager:
   - two
   - false
   - VRHead
+  - Obstacle
   layers:
   - Default
   - TransparentFX
