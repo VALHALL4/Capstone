@@ -4,34 +4,33 @@ using UnityEngine;
 
 public class ThrowFireExitinguisher : MonoBehaviour
 {
-    private ParticleSystem particle;
-    private new AudioSource audio;
+    [SerializeField]
+    private GameObject meshObject;
+    [SerializeField]
+    private GameObject effectObject;
+
     private void OnTriggerEnter(Collider collider)
     {
         if(collider.gameObject.layer == LayerMask.NameToLayer("Fire"))
         {
-            Debug.Log("접촉했습니다.");
-            particle = collider.GetComponent<ParticleSystem>();
-            audio = collider.GetComponent<AudioSource>();
-
-            audio.Stop(); //AudioSource 소리 재생 멈추기
-            particle.Stop(); //particle system일경우 파티클 재생을 멈추기
-            
-            //StartCoroutine(putOutFire(collider.gameObject)); VFX가 아닌 오브젝트일 경우 scale조정
+            StartCoroutine("OnEnterFire");
         }
     }
 
-    /*
-    IEnumerator putOutFire(GameObject fire)
+    IEnumerator OnEnterFire()
     {
-        while (fire.transform.localScale.x >= 0.1)
+        yield return new WaitForSeconds(2f);
+        meshObject.SetActive(false);
+        effectObject.SetActive(true);
+
+        RaycastHit[] rayHits = Physics.SphereCastAll(transform.position, 4, Vector3.up, 0f, LayerMask.GetMask("Fire"));
+        foreach(RaycastHit hitObject in rayHits)
         {
-            Debug.Log("작아지는중");
-            fire.transform.localScale *= 0.9f;
-            yield return new WaitForSeconds(0.1f);
+            hitObject.transform.GetComponent<ParticleSystem>().Stop();
+            hitObject.transform.GetComponent<AudioSource>().Stop();
         }
 
-        Destroy(fire, 1f);
+        Destroy(transform.parent.gameObject, 4);
     }
-    */
+    
 }
