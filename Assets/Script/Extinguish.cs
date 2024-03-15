@@ -10,7 +10,7 @@ public class Extinguish : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Fire"))
         {
             Debug.Log("접촉했습니다.");
-            fire = fire.GetComponent<ParticleSystem>();
+            fire = other.GetComponent<ParticleSystem>();
             fire.Stop(); //particle system일경우 파티클 재생을 멈추기
         }
     }
