@@ -19,48 +19,40 @@ public class FireExtinguisher : MonoBehaviour
     void Start()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
+        grabInteractable.activated.AddListener(x => StartSpray());
+        grabInteractable.deactivated.AddListener(x => StopSpray());
         currentGauge = maxGauge;
     }
 
     void Update()
     {
-        // 마우스 왼쪽 버튼을 누르는 동안
-        if (grabInteractable.isSelected)
-        {
-            if (Input.GetMouseButton(0))
-            {
-                Spray();
-            }
-        }
-        else
-        {
-            isFiring = false;
-            if (spray.isPlaying)
-            {
-                spray.Stop();
-            }
-        }
+       
+      
+        
     }
 
     private void FixedUpdate()
     {
         if (isFiring)
         {
-            UpdateGauge();
+            //UpdateGauge();
         }
     }
 
 
     
 
-    private void Spray()
-    {
-        if (!spray.isPlaying && currentGauge > 0)
-        {
-            isFiring = true;
-            spray.Play();
-        }
+    public void StartSpray()
+    {      
+       spray.Play();
+       UpdateGauge();
     }
+    public void StopSpray()
+    {
+        spray.Stop();
+    }
+
+
 
     private void UpdateGauge()
     {
