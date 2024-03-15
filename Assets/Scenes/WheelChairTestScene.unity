@@ -1805,10 +1805,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3355997935783175980}
+        m_TargetAssemblyTypeName: TestWheelChairKinematic, Assembly-CSharp
+        m_MethodName: OffKinematic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3355997935783175980}
+        m_TargetAssemblyTypeName: TestWheelChairKinematic, Assembly-CSharp
+        m_MethodName: OnKinematic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_OnHoverEntered:
@@ -1929,10 +1953,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3355997935783175980}
+        m_TargetAssemblyTypeName: TestWheelChairKinematic, Assembly-CSharp
+        m_MethodName: OffKinematic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3355997935783175980}
+        m_TargetAssemblyTypeName: TestWheelChairKinematic, Assembly-CSharp
+        m_MethodName: OnKinematic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_OnHoverEntered:
@@ -2815,7 +2863,7 @@ Rigidbody:
   m_GameObject: {fileID: 3355997934520684465}
   serializedVersion: 4
   m_Mass: 50
-  m_Drag: 10
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3379,7 +3427,7 @@ Rigidbody:
   m_GameObject: {fileID: 3355997935332077736}
   serializedVersion: 4
   m_Mass: 50
-  m_Drag: 10
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3767,7 +3815,7 @@ Rigidbody:
   m_GameObject: {fileID: 3355997935448568095}
   serializedVersion: 4
   m_Mass: 50
-  m_Drag: 10
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3881,6 +3929,7 @@ GameObject:
   - component: {fileID: 3355997935783175976}
   - component: {fileID: 3355997935783175978}
   - component: {fileID: 3355997935783175979}
+  - component: {fileID: 3355997935783175980}
   m_Layer: 0
   m_Name: Frame
   m_TagString: Untagged
@@ -3912,7 +3961,7 @@ Rigidbody:
   m_GameObject: {fileID: 3355997935783175973}
   serializedVersion: 4
   m_Mass: 250
-  m_Drag: 10
+  m_Drag: 1
   m_AngularDrag: 25
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -3926,7 +3975,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3946,6 +3995,19 @@ MonoBehaviour:
   useCustomCenterOfMass: 1
   centerOfMass: {x: 0, y: 0.55, z: 0.05}
   visualizeCenterOfMass: 0
+--- !u!114 &3355997935783175980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3355997935783175973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3612d2e62ce800a4c94ec7ff26bdf2dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 3355997935783175978}
 --- !u!82 &3355997935794215205
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4227,7 +4289,7 @@ Rigidbody:
   m_GameObject: {fileID: 3355997935794215206}
   serializedVersion: 4
   m_Mass: 50
-  m_Drag: 10
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
