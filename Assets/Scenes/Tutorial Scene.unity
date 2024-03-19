@@ -4392,6 +4392,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 490691471}
+    - target: {fileID: 2080244181194576620, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_TagString
+      value: Play_er
+      objectReference: {fileID: 0}
     - target: {fileID: 3135321936562359186, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_Name
       value: VRWC_WheelchairRig_fixed
@@ -4402,7 +4406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3135321936562359186, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_TagString
-      value: Play_er
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6115971272142271219, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_InteractionManager
