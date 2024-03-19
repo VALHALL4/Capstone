@@ -7,7 +7,7 @@ public class FireExtinguisher : MonoBehaviour
 {
     [SerializeField] private Transform spraypos;
     public ParticleSystem spray;
-    public Slider gaugeSlider; // 게이지 UI
+    //public Slider gaugeSlider; // 게이지 UI
     private AudioSource audiosource;
 
     private XRGrabInteractable grabInteractable;
@@ -30,10 +30,11 @@ public class FireExtinguisher : MonoBehaviour
 
     void Update()
     {
+        if (!grabInteractable.isSelected)
+            StopSpray();
         if (isFiring)
             Raycastcheck();
-    
-        
+           
     }
 
     private void FixedUpdate()
@@ -44,13 +45,13 @@ public class FireExtinguisher : MonoBehaviour
         }
     }
 
-    public void StartSpray()
+    public void StartSpray()//소화기 분사 시작
     {
         spray.Play();
         audiosource.Play();
         isFiring = true;
     }
-    public void StopSpray()
+    public void StopSpray()//소화기 분사 멈춤
     {
         spray.Stop();
         audiosource.Stop();
@@ -58,7 +59,7 @@ public class FireExtinguisher : MonoBehaviour
     }
 
 
-    void Raycastcheck()
+    void Raycastcheck()//소화기 분사 시 ray로 불 있는지 체크해서 불 소화
     {
         RaycastHit hit;
         if (Physics.Raycast(spraypos.position, spraypos.up, out hit, rayLength, LayerMask.GetMask("Fire")))
@@ -68,6 +69,8 @@ public class FireExtinguisher : MonoBehaviour
 
         }
     }
+
+  
 
     private void UpdateGauge()
     {
