@@ -389,8 +389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spraypos: {fileID: 375948704895852006}
   spray: {fileID: 5833442231790582336}
-  maxGauge: 100
-  gaugeConsumptionRate: 10
+  pin: {fileID: 8144448282679074777, guid: 7675d91afc1062e41b4c212523d29e10, type: 3}
+  pinpos: {fileID: 100458866182265470}
   rayLength: 10
 --- !u!82 &4103349933434334709
 AudioSource:

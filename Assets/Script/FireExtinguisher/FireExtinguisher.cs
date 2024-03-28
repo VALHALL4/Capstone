@@ -9,7 +9,9 @@ public class FireExtinguisher : MonoBehaviour
     public ParticleSystem spray;
     //public Slider gaugeSlider; // ∞‘¿Ã¡ˆ UI
     private AudioSource audiosource;
+
     private PullOutPin pulloutpin;
+
     private XRGrabInteractable grabInteractable;
 
     public GameObject pin;
