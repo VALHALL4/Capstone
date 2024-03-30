@@ -62,13 +62,13 @@ public class FireExtinguisher : MonoBehaviour
             isFiring = true;
         }
     }
+
     public void StopSpray()//소화기 분사 멈춤
     {
         spray.Stop();
         audiosource.Stop();
         isFiring = false;
     }
-
 
     void Raycastcheck()//소화기 분사 시 ray로 불 있는지 체크해서 불 소화
     {
@@ -80,8 +80,6 @@ public class FireExtinguisher : MonoBehaviour
 
         }
     }
-
-  
 
     private void UpdateGauge()
     {
