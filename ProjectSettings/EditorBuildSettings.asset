@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FireAlarmTestScene.unity
+    path: Assets/Scenes/testScenes/FireAlarmTestScene.unity
     guid: 8e52555cf4ff0ab4382cd4a63ad56a2b
   - enabled: 1
-    path: Assets/Scenes/FireAlarmTest2Scene.unity
+    path: Assets/Scenes/testScenes/FireAlarmTest2Scene.unity
     guid: 46709ce4e8577a841bd1c2dd2d7366a4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a2fe4c15b2efc9e4588bc51c67d8561e, type: 2}

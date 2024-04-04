@@ -77,7 +77,7 @@ public class UIPrefabScript : MonoBehaviour
        
         float distance = Vector3.Distance(camera.position, transform.position);
 
-        if (distance <= dist)
+        if (distance >= dist)
         {
             if(turns == false)
             {
