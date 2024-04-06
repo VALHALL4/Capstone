@@ -8,7 +8,8 @@ public class UIPrefabPlayButton : MonoBehaviour
  
     public void ButtonClick()
     {
-        RenderSettings.skybox = skyboxMaterial;
-       
+        RenderSettings.ambientMode = RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Trilight;
+
+
     }
 }
