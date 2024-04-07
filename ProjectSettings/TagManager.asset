@@ -18,6 +18,7 @@ TagManager:
   - VRHead
   - Obstacle
   - Button
+  - ThrowFE
   layers:
   - Default
   - TransparentFX

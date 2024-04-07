@@ -6,11 +6,15 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class PullOutPin : MonoBehaviour
 {
     private bool pullout = false;
+
     public bool pinpullout
     {
         get { return pullout; }
     }
     private XRSocketInteractor XRSocketInteractor;
+
+    public delegate void SafetyPinPulledEvent();
+    public static event SafetyPinPulledEvent OnSafetyPinPulled;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +25,7 @@ public class PullOutPin : MonoBehaviour
     // Update is called once per frame
     private void pulloutpin()
     {
+        OnSafetyPinPulled?.Invoke();
         pullout = true;
     }
 }
