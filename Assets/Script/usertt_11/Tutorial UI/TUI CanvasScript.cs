@@ -9,32 +9,17 @@ public class TUICanvasScript : MonoBehaviour
     public int countdownTime;
     public TextMeshProUGUI countdownDisplay;
     public TextMeshProUGUI countdownDisplay2;
-    public void CountDown()
-    {
-        StartCoroutine(CountdownToStart());
-    }
 
     IEnumerator CountdownToStart()
     {
-        while(countdownTime>0)
-        {
-            yield return new WaitForSeconds(1f);
-
-            countdownTime--;
-        }
+        yield return new WaitForSeconds(countdownTime);
         countdownDisplay.text = countdownDisplay2.text; 
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if(canvas.CompareTag("active")) {
-            CountDown();
+            StartCoroutine(CountdownToStart());
             canvas.tag = "non_active";
         }
         

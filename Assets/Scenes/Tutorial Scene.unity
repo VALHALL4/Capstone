@@ -3173,7 +3173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2307742527474968510, guid: 040591df897055648827899e0acf3571, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.01
+      value: 11.336
       objectReference: {fileID: 0}
     - target: {fileID: 2307742527474968510, guid: 040591df897055648827899e0acf3571, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3270,7 +3270,8 @@ PrefabInstance:
       value: Move to the Destination Point
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3854725747254270597, guid: 040591df897055648827899e0acf3571, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 040591df897055648827899e0acf3571, type: 3}
@@ -5093,7 +5094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1980192233821048742, guid: 21b2299a3c21206469e748742b5a0c11, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.026283
+      value: 13.541
       objectReference: {fileID: 0}
     - target: {fileID: 1980192233821048742, guid: 21b2299a3c21206469e748742b5a0c11, type: 3}
       propertyPath: m_LocalRotation.w
