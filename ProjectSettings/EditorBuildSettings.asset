@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testScenes/FireAlarmTest2Scene.unity
     guid: 46709ce4e8577a841bd1c2dd2d7366a4
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scene.unity
+    guid: e6f5b9a5879daa2449862deb46a21377
+  - enabled: 1
+    path: Assets/Scenes/FlashLightZone.unity
+    guid: b5f1c06f4f6c9b147996127c15c01ea5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a2fe4c15b2efc9e4588bc51c67d8561e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ba91cc4bae39cad4596bff0248e77253, type: 2}
