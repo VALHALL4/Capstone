@@ -9,6 +9,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject[] behaviourText;
     [SerializeField] private XRGrabInteractable xrInteractable;
 
+    private AudioSource audioSource;
     private void Start()
     {
         StartCoroutine(UIStart());
@@ -20,7 +21,9 @@ public class UIController : MonoBehaviour
         {
             if (i > 0) startText[i - 1].SetActive(false);
             startText[i].SetActive(true);
-            yield return new WaitForSeconds(3f);
+
+            audioSource = startText[i].GetComponent<AudioSource>();
+            yield return new WaitForSeconds(audioSource.clip.length + 0.5f);
         }
 
         startText[startText.Length - 1].SetActive(false);
