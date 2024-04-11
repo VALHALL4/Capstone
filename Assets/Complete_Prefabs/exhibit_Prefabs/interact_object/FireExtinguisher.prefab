@@ -391,7 +391,7 @@ MonoBehaviour:
   spray: {fileID: 5833442231790582336}
   pin: {fileID: 8144448282679074777, guid: 7675d91afc1062e41b4c212523d29e10, type: 3}
   pinpos: {fileID: 100458866182265470}
-  rayLength: 10
+  rayLength: 3
 --- !u!82 &4103349933434334709
 AudioSource:
   m_ObjectHideFlags: 0
