@@ -19,6 +19,7 @@ TagManager:
   - Obstacle
   - Button
   - ThrowFE
+  - wheel
   layers:
   - Default
   - TransparentFX

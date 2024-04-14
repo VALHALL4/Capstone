@@ -5,42 +5,91 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class UIController : MonoBehaviour
 {
+    [SerializeField] private GameObject[] panelindex;
     [SerializeField] private GameObject[] startText;
     [SerializeField] private GameObject[] behaviourText;
-    [SerializeField] private XRGrabInteractable xrInteractable;
+
+    private static UIController instance = null;
+    private int num = 0;
 
     private AudioSource audioSource;
+    public static UIController Instance
+    {
+        get
+        {
+            if (null == instance)
+            {
+                return null;
+            }
+            return instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (null == instance)
+        {
+            instance = this;
+        }
+
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
     private void Start()
     {
+        panelOpen();
         StartCoroutine(UIStart());
     }
 
-    IEnumerator UIStart()
+    private void panelOpen()
     {
+        panelindex[num].SetActive(true);
+    }
+
+    private void panelClose()
+    {
+        panelindex[num].SetActive(false);
+        num++;
+
+    }
+
+    private IEnumerator UIStart()
+    {
+        yield return new WaitForSeconds(3f);
+
+        panelOpen();
         for(int i = 0; i < startText.Length; i++)
         {
             if (i > 0) startText[i - 1].SetActive(false);
             startText[i].SetActive(true);
 
             audioSource = startText[i].GetComponent<AudioSource>();
-            yield return new WaitForSeconds(audioSource.clip.length + 0.5f);
+            yield return new WaitForSeconds(audioSource.clip.length + 1f);
         }
 
         startText[startText.Length - 1].SetActive(false);
-        StartCoroutine(behaviourFirst());
+        panelClose();
+
     }
 
     //그냥 순서에 필요한 만큼 함수를 제작해야할것
-    IEnumerator behaviourFirst()
+    public IEnumerator behaviourFirst()
     {
-        behaviourText[0].SetActive(true);
-        while(true)
+        panelOpen();
+        for(int i = 0; i < behaviourText.Length; i++)
         {
-            yield return new WaitForFixedUpdate();
-            if (xrInteractable.isSelected) break;
+            if (i > 0) behaviourText[i - 1].SetActive(false);
+            behaviourText[i].SetActive(true);
+
+            audioSource = behaviourText[i].GetComponent<AudioSource>();
+            yield return new WaitForSeconds(audioSource.clip.length + 1f);
         }
-        StartCoroutine(behaviourSecond());
-        //조건문으로 특정행동을 수행하면 behaviourSecond함수 불러오기
+
+        behaviourText[behaviourText.Length - 1].SetActive(false);
+        panelClose();
+
     }
 
     IEnumerator behaviourSecond()
