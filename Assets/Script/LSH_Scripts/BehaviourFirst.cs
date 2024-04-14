@@ -8,7 +8,7 @@ public class BehaviourFirst : MonoBehaviour
     {
         if (other.gameObject.CompareTag("wheel"))
         {
-            StartCoroutine(UIController.Instance.behaviourFirst());
+            UIController.Instance.startBehaviour();
             this.gameObject.SetActive(false);
         }
     }

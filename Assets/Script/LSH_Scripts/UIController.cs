@@ -43,6 +43,10 @@ public class UIController : MonoBehaviour
         StartCoroutine(UIStart());
     }
 
+    public void startBehaviour()
+    {
+        StartCoroutine(behaviourFirst());
+    }
     private void panelOpen()
     {
         panelindex[num].SetActive(true);
