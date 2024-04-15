@@ -8,7 +8,7 @@ public class BehaviourSecond : MonoBehaviour
     {
         if (other.gameObject.CompareTag("wheel"))
         {
-            UIController.Instance.startBehaviour();
+            UIController.Instance.startSecondBehaviour();
             this.gameObject.SetActive(false);
             
         }

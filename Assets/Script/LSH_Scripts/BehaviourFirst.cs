@@ -9,9 +9,8 @@ public class BehaviourFirst : MonoBehaviour
     {
         if (other.gameObject.CompareTag("wheel"))
         {
-            //UIController.Instance.startBehaviour();
-            //this.gameObject.SetActive(false);
-            SceneManager.LoadScene("experience_test");
+            UIController.Instance.startFirstBehaviour();
+            this.gameObject.SetActive(false);
 
         }
     }

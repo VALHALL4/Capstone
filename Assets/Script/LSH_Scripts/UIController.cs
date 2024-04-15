@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
     [SerializeField] private GameObject[] panelindex;
     [SerializeField] private GameObject[] startText;
     [SerializeField] private GameObject[] behaviourText;
+    [SerializeField] private GameObject[] moveToExhibitText;
 
     private static UIController instance = null;
     private int num = 0;
@@ -43,10 +44,16 @@ public class UIController : MonoBehaviour
         StartCoroutine(UIStart());
     }
 
-    public void startBehaviour()
+    public void startFirstBehaviour()
     {
         StartCoroutine(behaviourFirst());
     }
+
+    public void startSecondBehaviour()
+    {
+        StartCoroutine(behaviourSecond());
+    }
+
     private void panelOpen()
     {
         panelindex[num].SetActive(true);
@@ -78,7 +85,6 @@ public class UIController : MonoBehaviour
 
     }
 
-    //그냥 순서에 필요한 만큼 함수를 제작해야할것
     public IEnumerator behaviourFirst()
     {
         panelOpen();
@@ -98,11 +104,20 @@ public class UIController : MonoBehaviour
 
     IEnumerator behaviourSecond()
     {
-        behaviourText[0].SetActive(false);
-        behaviourText[1].SetActive(true);
+        panelOpen();
+        for (int i = 0; i < moveToExhibitText.Length; i++)
+        {
+            if (i > 0) moveToExhibitText[i - 1].SetActive(false);
+            moveToExhibitText[i].SetActive(true);
 
-        yield return null;
+            audioSource = moveToExhibitText[i].GetComponent<AudioSource>();
+            yield return new WaitForSeconds(audioSource.clip.length + 1f);
+        }
+
+        moveToExhibitText[moveToExhibitText.Length - 1].SetActive(false);
+        panelClose();
+
+        SceneManager.LoadScene("Exhibit Scene");
     }
-
 
 }
