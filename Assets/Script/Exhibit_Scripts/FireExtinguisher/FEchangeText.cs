@@ -53,7 +53,7 @@ public class FEchangeText : MonoBehaviour
 
     private void ChangeTextStartTFE()
     {
-        instructionText.text = "이번에는 투척용 소화기를 체험해보겠습니다.";
+        instructionText.text = "이번에는 투척용 소화기를 체험해보겠습니다.\n 투척용 소화기를 들고 불을 향해 던지세요.";
         Instantiate(TFE, TFErespawnpos);
         Instantiate(Fire, Firerespawnpos);
     }
