@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4143951627928676386}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: attach point2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 889401352465739008}
   - component: {fileID: 3642835997573078749}
   - component: {fileID: 4103349933434334709}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FireExtinguisher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6208002100422072601}
   - component: {fileID: 8395589486032580184}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +554,7 @@ GameObject:
   - component: {fileID: 3893192159364268206}
   - component: {fileID: 5701597436049919000}
   - component: {fileID: 7615586389227469267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 648387912216357931}
   - component: {fileID: 2333422533183020826}
   - component: {fileID: 2667777042065754346}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 5833442231790582336}
   - component: {fileID: 4797645921764966948}
   - component: {fileID: 576860498312999275}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5562,7 +5562,7 @@ GameObject:
   - component: {fileID: 6761036365719033939}
   - component: {fileID: 5307187007302979043}
   - component: {fileID: 1964473228123507205}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nozzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5645,7 +5645,7 @@ GameObject:
   - component: {fileID: 7027177252162039006}
   - component: {fileID: 5394559675727842774}
   - component: {fileID: 5389725859250673287}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gauge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5726,7 +5726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 375948704895852006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: spraypos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5760,7 +5760,7 @@ GameObject:
   - component: {fileID: 6469401696080201359}
   - component: {fileID: 8805513055596776396}
   - component: {fileID: 665648529758960537}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5872,7 +5872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4482745463416781435}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5904,7 +5904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 97779637670754326}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: attach point1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5937,7 +5937,7 @@ GameObject:
   - component: {fileID: 1586564921967955219}
   - component: {fileID: 5747607665628698584}
   - component: {fileID: 8127093507926257955}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}

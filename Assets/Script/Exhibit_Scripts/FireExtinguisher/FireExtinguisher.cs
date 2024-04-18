@@ -18,6 +18,7 @@ public class FireExtinguisher : MonoBehaviour
     public Transform pinpos;
 
     private bool isFiring=false; // 분사 중인지 여부
+    private bool isSprayevent = false;
 
     public float rayLength;
 
@@ -58,11 +59,13 @@ public class FireExtinguisher : MonoBehaviour
     public void StartSpray(bool pullout)//소화기 분사 시작
     {
         if (pullout)
-        {
-            OnStartSpraying?.Invoke();
+        {   
+            if(!isSprayevent)
+                OnStartSpraying?.Invoke();
             spray.Play();
             audiosource.Play();
             isFiring = true;
+            isSprayevent = true;
         }
     }
 

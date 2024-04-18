@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3737051842374589713}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: attachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 2199257350548591541}
   - component: {fileID: 9187901643083170924}
   - component: {fileID: 6279564853790429084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Needle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 550056546708862047}
   - component: {fileID: 1590070091176860638}
   - component: {fileID: 6821200155249984928}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
