@@ -967,6 +967,10 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 912531980}
+    - target: {fileID: 1714354262859625304, guid: 3370d20a1865bce4eaeea243a701a6eb, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 912531980}
     - target: {fileID: 2127769730923338988, guid: 3370d20a1865bce4eaeea243a701a6eb, type: 3}
       propertyPath: mat1
       value: 
