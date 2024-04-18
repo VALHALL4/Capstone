@@ -9,6 +9,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject[] startText;
     [SerializeField] private GameObject[] behaviourText;
     [SerializeField] private GameObject[] moveToExhibitText;
+    [SerializeField] private GameObject[] FESceneObjects;
 
     private static UIController instance = null;
     private int num = 0;
@@ -68,7 +69,7 @@ public class UIController : MonoBehaviour
 
     private IEnumerator UIStart()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
 
         panelOpen();
         for(int i = 0; i < startText.Length; i++)
@@ -99,6 +100,14 @@ public class UIController : MonoBehaviour
 
         behaviourText[behaviourText.Length - 1].SetActive(false);
         panelClose();
+
+        if(FESceneObjects != null)
+        {
+            foreach(GameObject obj in FESceneObjects)
+            {
+                obj.SetActive(true);
+            }
+        }
 
     }
 
