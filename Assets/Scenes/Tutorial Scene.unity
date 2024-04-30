@@ -3487,13 +3487,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: VRWC_WheelchairRig_fixed Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 3135321936562359186, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.019
+      value: 0.029
       objectReference: {fileID: 0}
     - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3501,7 +3497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.854
+      value: 14.622
       objectReference: {fileID: 0}
     - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5255,6 +5251,7 @@ MonoBehaviour:
   - {fileID: 586375396}
   - {fileID: 1337434031}
   - {fileID: 249306572}
+  FESceneObjects: []
 --- !u!4 &1319943287
 Transform:
   m_ObjectHideFlags: 0
