@@ -2827,9 +2827,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2706717990799613199, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773243391077757927, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3135321936562359186, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_Name
       value: VRWC_WheelchairRig_fixed Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092185903140199366, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618393322863744312, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2870,6 +2886,10 @@ PrefabInstance:
     - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219078773694437130, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
