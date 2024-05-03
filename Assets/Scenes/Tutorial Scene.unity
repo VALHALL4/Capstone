@@ -1180,7 +1180,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1668578590}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2819,83 +2819,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3528791932129353384, guid: 7f1b1b01f978951409651b203c64257c, type: 3}
   m_PrefabInstance: {fileID: 724227820}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &728361787
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2706717990799613199, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2773243391077757927, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3135321936562359186, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_Name
-      value: VRWC_WheelchairRig_fixed Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 6092185903140199366, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7618393322863744312, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.258
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.010724068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15.273
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219078773694437130, guid: c14cea16e68113647b2875dc38957222, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c14cea16e68113647b2875dc38957222, type: 3}
 --- !u!1001 &755108992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5078,11 +5001,6 @@ Transform:
   - {fileID: 1331364885}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &1668578590 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 4357490027453175747, guid: c14cea16e68113647b2875dc38957222, type: 3}
-  m_PrefabInstance: {fileID: 728361787}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1702404168
 GameObject:
   m_ObjectHideFlags: 0
@@ -6087,6 +6005,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8874979694905849344, guid: 396a6a118727e99458f09d342996d74d, type: 3}
   m_PrefabInstance: {fileID: 1898362117}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1912967915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.093212
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.346377
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597815403273324860, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_Name
+      value: WheelChair_Fin_Original
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
 --- !u!1 &1936742199
 GameObject:
   m_ObjectHideFlags: 0
@@ -6674,5 +6649,5 @@ SceneRoots:
   - {fileID: 490691470}
   - {fileID: 1279005780}
   - {fileID: 1210286324}
-  - {fileID: 728361787}
   - {fileID: 1069324529}
+  - {fileID: 1912967915}
