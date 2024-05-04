@@ -52,9 +52,9 @@ public class FLDestination : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.CompareTag("Play_er"))
-
-        {
+       
+        //if (collider.gameObject.CompareTag("Play_er"))
+        //{
             for (int i = 0; i < 27; i++)
             {
                 gameObject1[i].GetComponent<MeshRenderer>().material = mat1;
@@ -66,6 +66,6 @@ public class FLDestination : MonoBehaviour
             RenderSettings.ambientMode = RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Skybox;
             canvas2.SetActive(true);
             CountDown();
-        }
+        //}
     }
 }

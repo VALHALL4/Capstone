@@ -20,6 +20,8 @@ TagManager:
   - Button
   - ThrowFE
   - wheel
+  - FlashLightZone
+  - FE Experience Scene
   layers:
   - Default
   - TransparentFX
