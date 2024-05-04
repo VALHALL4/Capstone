@@ -29,6 +29,9 @@ public class UIPrefabPlayButton : MonoBehaviour
     public Material omat5;
     public Material omat6;
 
+    public GameObject WallCover1;
+    public GameObject UI;
+
     public void ButtonClick()
     {
         for (int i = 0; i < 20; i++)
@@ -59,6 +62,7 @@ public class UIPrefabPlayButton : MonoBehaviour
 
 
         RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Trilight;
-
+        WallCover1.SetActive(false);
+        UI.SetActive(false);
     }
 }
