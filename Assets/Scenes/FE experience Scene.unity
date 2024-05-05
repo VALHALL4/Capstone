@@ -2004,7 +2004,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1150590139746539551, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_text
-      value: "1. \uC18C\uD654\uAE30\uB97C \uC9D1\uC5B4\uC8FC\uC138\uC694"
+      value: "\uC18C\uD654\uAE30\uB97C \uC7A1\uC740 \uD6C4 \uBD88\uC744 \uD5A5\uD574
+        \uC870\uC900\uD558\uC138\uC694"
       objectReference: {fileID: 0}
     - target: {fileID: 1150590139746539551, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_fontSize
@@ -2016,7 +2017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1150590139746539551, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_margin.x
-      value: -379.11212
+      value: -406.7503
       objectReference: {fileID: 0}
     - target: {fileID: 1150590139746539551, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_margin.y
@@ -2024,7 +2025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1150590139746539551, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_margin.z
-      value: -376.85226
+      value: -405.0082
       objectReference: {fileID: 0}
     - target: {fileID: 1150590139746539551, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_fontColor.b
@@ -2039,8 +2040,24 @@ PrefabInstance:
       value: 0.21960786
       objectReference: {fileID: 0}
     - target: {fileID: 1150590139746539551, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150590139746539551, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4281874488
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362449916156405208, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362449916156405208, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362449916156405208, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4494737865810677305, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: camera
@@ -2060,7 +2077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6569142314034040748, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 900
       objectReference: {fileID: 0}
     - target: {fileID: 6569142314034040748, guid: c5600ca77593fc8468f8686917ee7457, type: 3}
       propertyPath: m_SizeDelta.y
