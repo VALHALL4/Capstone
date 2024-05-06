@@ -22,6 +22,8 @@ TagManager:
   - wheel
   - FlashLightZone
   - FE Experience Scene
+  - EscapeArea
+  - PlayScene
   layers:
   - Default
   - TransparentFX
