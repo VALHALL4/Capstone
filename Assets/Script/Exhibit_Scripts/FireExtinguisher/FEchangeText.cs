@@ -11,6 +11,9 @@ public class FEchangeText : MonoBehaviour
     public GameObject Fire;
     public Transform Firerespawnpos;
 
+    public GameObject firstPreview;
+    public GameObject secondPreview;
+
     private void OnEnable()
     {
         FireExtinguisher.OnFireExtinguisherGrabbed += ChangeTextToSafetyPin;
@@ -34,12 +37,15 @@ public class FEchangeText : MonoBehaviour
 
     private void ChangeTextToSafetyPin()
     {
+        firstPreview.SetActive(false);
+        secondPreview.SetActive(true);
         instructionText.text = "소화기 손잡이 부분에 위치한 안전핀을 뽑아주세요";
     }
 
     // 안전핀을 뽑았을 때 호출되는 메서드
     private void ChangeTextToStartSpraying()
     {
+        secondPreview.SetActive(false);
         instructionText.text = "불을 향해 호스를 조준하고 버튼을 눌러 분사하세요";
     }
 
