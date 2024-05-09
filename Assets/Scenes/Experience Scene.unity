@@ -8068,6 +8068,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1683696332}
     m_Modifications:
+    - target: {fileID: 919132147738516270, guid: 8e2c5ab689cf1ba4f89a4650e8c54fa5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5092666984485336440, guid: 8e2c5ab689cf1ba4f89a4650e8c54fa5, type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 1.0596762e-38
@@ -16585,6 +16589,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1683696332}
     m_Modifications:
+    - target: {fileID: 919132147738516270, guid: 8e2c5ab689cf1ba4f89a4650e8c54fa5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5092666984485336440, guid: 8e2c5ab689cf1ba4f89a4650e8c54fa5, type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 585363.5
