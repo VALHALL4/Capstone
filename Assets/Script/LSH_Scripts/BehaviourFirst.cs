@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BehaviourFirst : MonoBehaviour
 {
-    public GameObject second;
+    public GameObject grab;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,7 +13,7 @@ public class BehaviourFirst : MonoBehaviour
         {
             UIController.instance.startFirstBehaviour();
             this.gameObject.SetActive(false);
-            second.SetActive(true);
+            grab.SetActive(true);
         }
     }
 }

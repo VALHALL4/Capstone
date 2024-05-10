@@ -11570,6 +11570,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2324627579884268961, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -11610,9 +11614,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6023916051345089700, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
     - target: {fileID: 6597815403273324860, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_Name
       value: WheelChair_Fin_Original
+      objectReference: {fileID: 0}
+    - target: {fileID: 6979271386063727761, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+    - target: {fileID: 7506162912516168382, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12247,7 +12263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750bdc01f548d6649aa367db3b684805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  second: {fileID: 56983587}
+  grab: {fileID: 0}
 --- !u!65 &1950417065
 BoxCollider:
   m_ObjectHideFlags: 0
