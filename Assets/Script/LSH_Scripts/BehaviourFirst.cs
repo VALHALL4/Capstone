@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class BehaviourFirst : MonoBehaviour
 {
+    public GameObject second;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("wheel"))
         {
-            UIController.Instance.startFirstBehaviour();
+            UIController.instance.startFirstBehaviour();
             this.gameObject.SetActive(false);
-
+            second.SetActive(true);
         }
     }
 }

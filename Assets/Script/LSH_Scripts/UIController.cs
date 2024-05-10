@@ -8,24 +8,13 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject[] panelindex;
     [SerializeField] private GameObject[] startText;
     [SerializeField] private GameObject[] behaviourText;
+    [SerializeField] private GameObject[] grabText;
     [SerializeField] private GameObject[] moveToExhibitText;
     [SerializeField] private GameObject[] FESceneObjects;
-
-    private static UIController instance = null;
+    public static UIController instance = null;
     private int num = 0;
 
     private AudioSource audioSource;
-    public static UIController Instance
-    {
-        get
-        {
-            if (null == instance)
-            {
-                return null;
-            }
-            return instance;
-        }
-    }
 
     private void Awake()
     {
@@ -39,6 +28,7 @@ public class UIController : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
     private void Start()
     {
         panelOpen();
@@ -53,6 +43,11 @@ public class UIController : MonoBehaviour
     public void startSecondBehaviour()
     {
         StartCoroutine(behaviourSecond());
+    }
+
+    public void startGrabBehaviour()
+    {
+        StartCoroutine(grabBehaviour());
     }
 
     private void panelOpen()
@@ -109,6 +104,22 @@ public class UIController : MonoBehaviour
             }
         }
 
+    }
+
+    IEnumerator grabBehaviour()
+    {
+        panelOpen();
+        for (int i = 0; i < grabText.Length; i++)
+        {
+            if (i > 0) grabText[i - 1].SetActive(false);
+            grabText[i].SetActive(true);
+
+            audioSource = grabText[i].GetComponent<AudioSource>();
+            yield return new WaitForSeconds(audioSource.clip.length + 1f);
+        }
+
+        grabText[grabText.Length - 1].SetActive(false);
+        panelClose();
     }
 
     IEnumerator behaviourSecond()
