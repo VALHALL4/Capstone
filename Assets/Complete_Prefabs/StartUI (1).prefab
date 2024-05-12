@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1103941214228223292}
   m_Layer: 0
   m_Name: ButtonEvent
-  m_TagString: Untagged
+  m_TagString: FlashLightZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,8 +109,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<color=\"black\">\n\n\n<\uD720\uCCB4\uC5B4 \uAC04\uC774 \uACBD\uC0AC\uB85C>\n\n\uD720\uCCB4\uC5B4
-    \uAC04\uC774 \uACBD\uC0AC\uB85C \uC0AC\uC6A9\uBC95\uC744 \uD655\uC778\uD569\uB2C8\uB2E4.</color>\n"
+  m_text: "<color=\"black\">\n\n\n<\uC190\uC804\uB4F1 \uCCB4\uD5D8\uAD00>\n\n\uC190\uC804\uB4F1
+    \uCCB4\uD5D8\uAD00\uC73C\uB85C \n\uC774\uB3D9\uD569\uB2C8\uB2E4.</color>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d227e0fbed434c245b8661dc94aa308c, type: 2}
   m_sharedMaterial: {fileID: -2646102111487176610, guid: d227e0fbed434c245b8661dc94aa308c, type: 2}
@@ -393,7 +393,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8440923891587288532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1103941214228223292}
+        m_TargetAssemblyTypeName: UIMove, Assembly-CSharp
+        m_MethodName: ButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7973616500240813147
 GameObject:
   m_ObjectHideFlags: 0
