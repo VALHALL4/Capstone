@@ -18,6 +18,16 @@ public class UIMove : MonoBehaviour
             SceneManager.LoadScene("FE Experience Scene");
 
         }
+        else if (gameObject.CompareTag("PlayScene"))
+        {
+            SceneManager.LoadScene("Experience Scene");
+
+        }
+        else if (gameObject.CompareTag("EscapeArea"))
+        {
+            SceneManager.LoadScene("RefugeAreaScene");
+
+        }
     }
 
 }

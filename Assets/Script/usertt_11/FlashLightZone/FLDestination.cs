@@ -62,7 +62,7 @@ public class FLDestination : MonoBehaviour
 
             gameObject2.GetComponent<MeshRenderer>().material = mat2;
             gameObject3.GetComponent<MeshRenderer>().material = mat3;
-            gameObject4.SetActive(false);
+            //gameObject4.SetActive(false);
             RenderSettings.ambientMode = RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Skybox;
             canvas2.SetActive(true);
             CountDown();
