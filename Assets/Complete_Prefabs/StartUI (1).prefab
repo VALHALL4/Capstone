@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5446021820020912918}
-  - component: {fileID: 9159663314385606205}
+  - component: {fileID: 1103941214228223292}
   m_Layer: 0
   m_Name: ButtonEvent
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2841653403603772771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9159663314385606205
+--- !u!114 &1103941214228223292
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,65 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2787029672701532104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a112dbd520682bb468de0c0b9aa092e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 008214fc75284ca49b9bee03ef131fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObject1:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  gameObject2: {fileID: 0}
-  gameObject3: {fileID: 0}
-  gameObject4: {fileID: 0}
-  gameObject5: {fileID: 0}
-  mat1: {fileID: 2100000, guid: f6f64baa3e16d4540b9258af8daf1390, type: 2}
-  mat2: {fileID: 2100000, guid: 893a9406a5bdc4a4eaf14181d2a571bd, type: 2}
-  mat3: {fileID: 2100000, guid: 5b8f0cda24c67fb4084c5422ec079cc3, type: 2}
-  gameObject6:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  ob1: {fileID: 0}
-  ob2: {fileID: 0}
-  ob3: {fileID: 0}
-  ob4: {fileID: 0}
-  ob5: {fileID: 0}
-  ob6: {fileID: 0}
-  omat1: {fileID: 2100000, guid: fcaaaf4d25c2c2f45926ab45e1ed5e4f, type: 2}
-  omat2: {fileID: 2100000, guid: fcaaaf4d25c2c2f45926ab45e1ed5e4f, type: 2}
-  omat3: {fileID: 2100000, guid: e802300d9005cf146a1d538da4991253, type: 2}
-  omat4: {fileID: 2100000, guid: e7ea4edc3869f624fa9688ed14542022, type: 2}
-  omat5: {fileID: 2100000, guid: 5a28e2d51d6467349bdaa2c5b15602e4, type: 2}
-  omat6: {fileID: 2100000, guid: e7ea4edc3869f624fa9688ed14542022, type: 2}
-  WallCover1: {fileID: 0}
-  UI: {fileID: 8495645696021037178}
 --- !u!1 &2793172552542901266
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,9 +109,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<color=\"black\">\n\n\n<\uC190\uC804\uB4F1 \uC0AC\uC6A9\uD558\uAE30>\n\n\uC190\uC804\uB4F1\uC744
-    \uC7A1\uC544\uC11C \uD0A4\uACE0 \uAEBC\uBCF4\uC138\uC694\n\uC2DC\uC791\uD788\uAE30\uB97C
-    \uB20C\uB7EC , \n\uCCB4\uD5D8\uC744 \uC2DC\uC791\uD569\uB2C8\uB2E4.</color>\n"
+  m_text: "<color=\"black\">\n\n\n<\uD720\uCCB4\uC5B4 \uAC04\uC774 \uACBD\uC0AC\uB85C>\n\n\uD720\uCCB4\uC5B4
+    \uAC04\uC774 \uACBD\uC0AC\uB85C \uC0AC\uC6A9\uBC95\uC744 \uD655\uC778\uD569\uB2C8\uB2E4.</color>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d227e0fbed434c245b8661dc94aa308c, type: 2}
   m_sharedMaterial: {fileID: -2646102111487176610, guid: d227e0fbed434c245b8661dc94aa308c, type: 2}
@@ -450,19 +393,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8440923891587288532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9159663314385606205}
-        m_TargetAssemblyTypeName: UIPrefabPlayButton, Assembly-CSharp
-        m_MethodName: ButtonClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &7973616500240813147
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC2DC\uC791\uD558\uAE30"
+  m_text: "\uD655\uC778\uD558\uAE30"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d227e0fbed434c245b8661dc94aa308c, type: 2}
   m_sharedMaterial: {fileID: -2646102111487176610, guid: d227e0fbed434c245b8661dc94aa308c, type: 2}

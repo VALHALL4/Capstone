@@ -24,7 +24,6 @@ public class UIPrefabScript : MonoBehaviour
     public void small ()
     {
         transform.localScale = new Vector3 ( transform.localScale.x * (0.97f), transform.localScale.y * (0.97f) , transform.localScale.z);
-        Debug.Log(count);
         if (count < 100)
         {
             Invoke("small", 0.01f);
@@ -43,7 +42,6 @@ public class UIPrefabScript : MonoBehaviour
     public void big()
     {
         transform.localScale = new Vector3(transform.localScale.x * (1.03f), transform.localScale.y * (1.03f), transform.localScale.z);
-        Debug.Log(count);
 
         if (count < 100)
         {
