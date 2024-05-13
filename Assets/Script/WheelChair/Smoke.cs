@@ -6,6 +6,7 @@ using UnityEngine;
 public class Smoke : MonoBehaviour
 {
     private float elapsedTime = 0f;
+    public GameObject warningUI;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,6 +24,7 @@ public class Smoke : MonoBehaviour
             if(this.elapsedTime >= 5f)
             {
                 //5초 이상 되었을 시
+                warningUI.SetActive(true);
                 Debug.LogFormat("<color=red>화재연기를 5초이상 마셨습니다.</color>");
                 this.elapsedTime = 0f; //시간 초기화
             }
@@ -34,6 +36,7 @@ public class Smoke : MonoBehaviour
         if (other.gameObject.CompareTag("VRHead"))
         {
             Debug.Log("VRHead 나감");
+            warningUI.SetActive(false);
             this.elapsedTime = 0f;
         }
     }
