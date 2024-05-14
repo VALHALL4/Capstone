@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TestFadeIn : MonoBehaviour
+public class FadeIn : MonoBehaviour
 {
     [SerializeField]
     private Image dim;
@@ -11,11 +11,6 @@ public class TestFadeIn : MonoBehaviour
     private void Awake()
     {
         this.StartCoroutine(CoFadeIn());
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
     
     private IEnumerator CoFadeIn()
