@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Experience Scene.unity
     guid: 64f3fb036649a2b4ca750b9aeea8f728
   - enabled: 1
-    path: Assets/Scenes/testScenes/RefugeAreaScene.unity
-    guid: c587bd5480c388a458c47ae67aee3645
+    path: Assets/Scenes/testScenes/RefugeAreaTestScene.unity
+    guid: c6fdc3e862312db4aada0f4461333457
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a2fe4c15b2efc9e4588bc51c67d8561e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ba91cc4bae39cad4596bff0248e77253, type: 2}
