@@ -683,6 +683,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1682862963}
     m_Modifications:
+    - target: {fileID: 1746846585, guid: 219eaaa6177988b428e5480ccd32412e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 665850246100996659, guid: 219eaaa6177988b428e5480ccd32412e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.352
@@ -5087,6 +5091,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2119232345156852428, guid: 39d1967519d35574e8f663278e05612a, type: 3}
   m_PrefabInstance: {fileID: 755525766}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &770897717
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3135321936562359186, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_Name
+      value: VRWC_WheelchairRig_fixed Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135321936562359186, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.909
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.928
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655026916706052286, guid: c14cea16e68113647b2875dc38957222, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c14cea16e68113647b2875dc38957222, type: 3}
 --- !u!1001 &773011947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6289,6 +6354,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 921508965822107452, guid: 383819764d28f184c9cad08c45c87ea8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3557741861850648752, guid: 383819764d28f184c9cad08c45c87ea8, type: 3}
       propertyPath: m_Name
       value: Marker Pen 2
@@ -6780,6 +6849,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1682862963}
     m_Modifications:
+    - target: {fileID: 105750850203591735, guid: 07cd3e24ef2e43e4c9425d308cdd26a3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1213937229229033608, guid: 07cd3e24ef2e43e4c9425d308cdd26a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.359
@@ -9511,6 +9584,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1682862963}
     m_Modifications:
+    - target: {fileID: 993826751905442195, guid: de55b5cb64de9a04cbe500707821e55d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1819014586238604140, guid: de55b5cb64de9a04cbe500707821e55d, type: 3}
       propertyPath: m_Name
       value: Marker Pen 3
@@ -11570,10 +11647,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2324627579884268961, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
-      propertyPath: m_InteractionLayers.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -11614,21 +11687,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6023916051345089700, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
-      propertyPath: m_ModelPrefab
-      value: 
-      objectReference: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
     - target: {fileID: 6597815403273324860, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_Name
       value: WheelChair_Fin_Original
-      objectReference: {fileID: 0}
-    - target: {fileID: 6979271386063727761, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
-      propertyPath: m_ModelPrefab
-      value: 
-      objectReference: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
-    - target: {fileID: 7506162912516168382, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
-      propertyPath: m_InteractionLayers.m_Bits
-      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12263,7 +12324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750bdc01f548d6649aa367db3b684805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grab: {fileID: 0}
+  grab: {fileID: 56983587}
 --- !u!65 &1950417065
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12499,6 +12560,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4580854482556945726, guid: 0114335ae23043e42890a2c2b0615059, type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925813305789054241, guid: 0114335ae23043e42890a2c2b0615059, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13328,3 +13393,4 @@ SceneRoots:
   - {fileID: 1912967915}
   - {fileID: 97652690}
   - {fileID: 1682862963}
+  - {fileID: 770897717}
