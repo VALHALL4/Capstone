@@ -19,13 +19,20 @@ public class PullOutPin : MonoBehaviour
     void Start()
     {
         XRSocketInteractor = GetComponent<XRSocketInteractor>();
-        XRSocketInteractor.selectExited.AddListener(x => pulloutpin());
+        if(XRSocketInteractor != null)
+            XRSocketInteractor.selectExited.AddListener(x => pulloutpin());
     }
 
     // Update is called once per frame
     private void pulloutpin()
     {
-        OnSafetyPinPulled?.Invoke();
-        pullout = true;
+        if (XRSocketInteractor != null)
+        {
+            if (!pullout)
+                OnSafetyPinPulled?.Invoke();
+
+            pullout = true;
+        }
+
     }
 }

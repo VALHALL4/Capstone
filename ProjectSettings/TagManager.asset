@@ -25,6 +25,9 @@ TagManager:
   - EscapeArea
   - PlayScene
   - Elevator
+  - respawnArea
+  - FireExtinguisher
+  - SafePin
   layers:
   - Default
   - TransparentFX

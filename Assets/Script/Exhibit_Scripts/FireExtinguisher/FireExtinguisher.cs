@@ -19,6 +19,7 @@ public class FireExtinguisher : MonoBehaviour
 
     private bool isFiring=false; // 분사 중인지 여부
     private bool isSprayevent = false;
+    private bool isfirstgrab = false;
 
     public float rayLength;
 
@@ -53,7 +54,11 @@ public class FireExtinguisher : MonoBehaviour
    
     private void OnGrabStart(SelectEnterEventArgs args)
     {
-        OnFireExtinguisherGrabbed?.Invoke();
+        if (!isfirstgrab)
+        {
+            OnFireExtinguisherGrabbed?.Invoke();
+            isfirstgrab = true;
+        }
     }
 
     public void StartSpray(bool pullout)//소화기 분사 시작
