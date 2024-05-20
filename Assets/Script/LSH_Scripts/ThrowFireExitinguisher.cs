@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ThrowFireExitinguisher : MonoBehaviour
 {
@@ -9,14 +10,17 @@ public class ThrowFireExitinguisher : MonoBehaviour
     [SerializeField]
     private GameObject effectObject;
 
+
+
+
     public delegate void FireExtinguisherThrowEvent();
     public static event FireExtinguisherThrowEvent OnFireExtinguisherThrow;
+
 
     private void OnTriggerEnter(Collider collider)
     {
         if(collider.gameObject.layer == LayerMask.NameToLayer("Fire"))
         {
-
             StartCoroutine("OnEnterFire");
         }
     }

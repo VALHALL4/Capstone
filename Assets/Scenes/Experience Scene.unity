@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
+  m_AmbientSkyColor: {r: 0.004901961, g: 0.004901961, b: 0.004901961, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -195,15 +195,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1495880967}
     m_Modifications:
+    - target: {fileID: 395561436960704426, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 188.23526
+      objectReference: {fileID: 0}
     - target: {fileID: 395561436960704426, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.843
       objectReference: {fileID: 0}
     - target: {fileID: 395561436960704426, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.4564705
       objectReference: {fileID: 0}
     - target: {fileID: 395561436960704426, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
       propertyPath: m_LocalPosition.z
@@ -219,11 +223,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 395561436960704426, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 395561436960704426, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 395561436960704426, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -246,6 +250,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
+--- !u!4 &3298479 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 395561436960704426, guid: e623c9a4b760b8740a4460897330a8be, type: 3}
+  m_PrefabInstance: {fileID: 3298478}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4419863
 GameObject:
   m_ObjectHideFlags: 0
@@ -7802,11 +7811,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1495880967}
     m_Modifications:
     - target: {fileID: 111554, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
       propertyPath: m_Name
       value: ms_fire_alarm
+      objectReference: {fileID: 0}
+    - target: {fileID: 454440, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1764705
       objectReference: {fileID: 0}
     - target: {fileID: 454440, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7814,7 +7827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 454440, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.855
+      value: 2.1823528
       objectReference: {fileID: 0}
     - target: {fileID: 454440, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7826,15 +7839,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 454440, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 454440, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 454440, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 454440, guid: cdc3c2cb1086fee4d84b8f5cce7f2e84, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15530,12 +15543,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284370911}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.019, y: 1.744, z: -8.888}
   m_LocalScale: {x: 0.78, y: 3.5, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &286592616
 PrefabInstance:
@@ -19293,6 +19306,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 689214488}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MaxDistance
       value: 15.000001
@@ -19300,6 +19333,22 @@ PrefabInstance:
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MinDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
@@ -19386,8 +19435,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (9)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20893,15 +20950,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685918270}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.921, y: 1.827, z: -5.655}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.921, y: 2.1494117, z: -5.655}
+  m_LocalScale: {x: 1, y: 1.1764705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1306384816}
   - {fileID: 272731499}
   - {fileID: 1926098316}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &686181465
 PrefabInstance:
@@ -21043,6 +21100,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 689214488}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MaxDistance
       value: 15.000001
@@ -21050,6 +21127,22 @@ PrefabInstance:
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MinDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
@@ -21136,8 +21229,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (12)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21375,9 +21476,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689214487}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.087913, y: 1.4421613, z: 8.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.087913, y: 1.6966603, z: 8.6}
+  m_LocalScale: {x: 1, y: 1.1764705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 529282984}
@@ -21386,7 +21487,7 @@ Transform:
   - {fileID: 687038341}
   - {fileID: 1343579674}
   - {fileID: 1865396655}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &689286675
 PrefabInstance:
@@ -22789,6 +22890,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -22874,8 +23011,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (8)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23416,6 +23561,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -23501,8 +23682,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23919,6 +24108,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -24004,8 +24229,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35198,9 +35431,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999308628}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.924878, y: 1.5170631, z: 3.514}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.559, y: 1.78478, z: 2.092}
+  m_LocalScale: {x: 1, y: 1.1764705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 73868656}
@@ -35215,7 +35448,7 @@ Transform:
   - {fileID: 1416008578}
   - {fileID: 1866395465}
   - {fileID: 181166116}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1001428547
 PrefabInstance:
@@ -35847,6 +36080,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -35932,8 +36201,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (6)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42516,6 +42793,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -42601,8 +42914,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (5)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42844,12 +43165,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135529605}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.019, y: 1.744, z: -2.604}
   m_LocalScale: {x: 0.78, y: 3.5, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1135819656
 PrefabInstance:
@@ -43479,12 +43800,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166528494}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.889, y: 1.481, z: -2.366}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.889, y: 1.4282352, z: -2.366}
+  m_LocalScale: {x: 1, y: 1.1764705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1166528496
 MonoBehaviour:
@@ -49062,16 +49383,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220102342}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.601518, y: 2.00193, z: 0.0037611877}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.601518, y: 2.3552117, z: 0.0037611877}
+  m_LocalScale: {x: 1, y: 1.1764705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1048457473939426438}
   - {fileID: 437529181}
   - {fileID: 1151337918}
   - {fileID: 2101053873}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1229434950
 PrefabInstance:
@@ -49896,6 +50217,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -49981,8 +50338,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -50149,7 +50514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.39
+      value: -11.768
       objectReference: {fileID: 0}
     - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -50157,7 +50522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.65
+      value: -3.97
       objectReference: {fileID: 0}
     - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50221,6 +50586,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -50306,8 +50707,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51313,6 +51722,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 689214488}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MaxDistance
       value: 15.000001
@@ -51320,6 +51749,22 @@ PrefabInstance:
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MinDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
@@ -51406,8 +51851,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (13)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -52796,12 +53249,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409567909}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.903, y: 1.752, z: -2.561}
   m_LocalScale: {x: 0.1, y: 3.5, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1411002068
 GameObject:
@@ -59024,7 +59477,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.85, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 336650031}
@@ -59040,6 +59493,22 @@ Transform:
   - {fileID: 1050207446}
   - {fileID: 19335289}
   - {fileID: 2131931559}
+  - {fileID: 1947798131}
+  - {fileID: 1409567913}
+  - {fileID: 1135529609}
+  - {fileID: 284370915}
+  - {fileID: 2109224998}
+  - {fileID: 689214488}
+  - {fileID: 1220102343}
+  - {fileID: 999308629}
+  - {fileID: 1880590603}
+  - {fileID: 1166528495}
+  - {fileID: 3298479}
+  - {fileID: 1828933198}
+  - {fileID: 1634307301}
+  - {fileID: 1972045983}
+  - {fileID: 233085288}
+  - {fileID: 685918271}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1500271509
@@ -71786,12 +72255,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634307300}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.59, y: 2.396, z: 0.105}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.59, y: 2.8188233, z: 0.105}
+  m_LocalScale: {x: 1, y: 1.1764705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1634307302
 BoxCollider:
@@ -72276,6 +72745,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 689214488}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MaxDistance
       value: 15.000001
@@ -72283,6 +72772,22 @@ PrefabInstance:
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MinDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
@@ -72369,8 +72874,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (10)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72561,6 +73074,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -72646,8 +73195,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74679,12 +75236,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828933197}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.74, y: 0.571, z: 0.083}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.74, y: 0.6717647, z: 0.083}
+  m_LocalScale: {x: 1, y: 1.1764705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1828933199
 BoxCollider:
@@ -75326,6 +75883,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 689214488}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MaxDistance
       value: 15.000001
@@ -75333,6 +75910,22 @@ PrefabInstance:
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MinDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
@@ -75419,8 +76012,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (14)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -85578,11 +86179,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1495880967}
     m_Modifications:
     - target: {fileID: 742725780739523796, guid: aa22c5a2656237940b32db73df62260e, type: 3}
       propertyPath: m_Name
       value: FireExtinguisher
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056859306198782465, guid: aa22c5a2656237940b32db73df62260e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7058823
       objectReference: {fileID: 0}
     - target: {fileID: 2056859306198782465, guid: aa22c5a2656237940b32db73df62260e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -85590,7 +86195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2056859306198782465, guid: aa22c5a2656237940b32db73df62260e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0081
+      value: 0.009529412
       objectReference: {fileID: 0}
     - target: {fileID: 2056859306198782465, guid: aa22c5a2656237940b32db73df62260e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -85602,7 +86207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2056859306198782465, guid: aa22c5a2656237940b32db73df62260e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2056859306198782465, guid: aa22c5a2656237940b32db73df62260e, type: 3}
       propertyPath: m_LocalRotation.y
@@ -85629,6 +86234,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa22c5a2656237940b32db73df62260e, type: 3}
+--- !u!4 &1880590603 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2056859306198782465, guid: aa22c5a2656237940b32db73df62260e, type: 3}
+  m_PrefabInstance: {fileID: 1880590602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1882514840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87196,12 +87806,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947798127}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -19.6, y: 1.75, z: -5.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1948109162
 GameObject:
@@ -87610,11 +88220,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1495880967}
     m_Modifications:
     - target: {fileID: 181338, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
       propertyPath: m_Name
       value: ms_fire_alarm_button
+      objectReference: {fileID: 0}
+    - target: {fileID: 472394, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1764705
       objectReference: {fileID: 0}
     - target: {fileID: 472394, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -87622,7 +88236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 472394, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000011920929
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 472394, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -87634,7 +88248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 472394, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 472394, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
       propertyPath: m_LocalRotation.y
@@ -87642,7 +88256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 472394, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 472394, guid: 70ff8661d32db2f4390443f82c84c95e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -88089,6 +88703,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 689214488}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MaxDistance
       value: 15.000001
@@ -88096,6 +88730,22 @@ PrefabInstance:
     - target: {fileID: 6667402393872249569, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: MinDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
@@ -88182,8 +88832,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (11)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -93999,6 +94657,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109224998}
     m_Modifications:
+    - target: {fileID: 1054562835564666262, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388817007054719686, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2938931511937748487, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725744335407603100, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167940340674716932, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860310887368847533, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222330932563043161, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258638062885397761, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286459981575398988, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7362873326358193859, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: LightsModule.color
       value: 1
@@ -94084,8 +94778,16 @@ PrefabInstance:
       value: VFX_Fire_01_Big_Smoke (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829451551789304542, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986170565123019627, guid: 8206b722d11501a449d6a278cca2adfa, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -95054,9 +95756,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109224997}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.457537, y: 1.4656739, z: 7.0510206}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.457537, y: 1.7243222, z: 7.0510206}
+  m_LocalScale: {x: 1, y: 1.1764705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 261400640}
@@ -95068,7 +95770,7 @@ Transform:
   - {fileID: 1023271015}
   - {fileID: 1297768360}
   - {fileID: 766592174}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495880967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2110040827
 GameObject:
@@ -95693,21 +96395,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 689042048}
   - {fileID: 1495880967}
-  - {fileID: 1947798131}
-  - {fileID: 1409567913}
-  - {fileID: 1135529609}
-  - {fileID: 284370915}
-  - {fileID: 2109224998}
-  - {fileID: 689214488}
-  - {fileID: 1220102343}
-  - {fileID: 999308629}
-  - {fileID: 1880590602}
-  - {fileID: 1166528495}
-  - {fileID: 3298478}
-  - {fileID: 1828933198}
-  - {fileID: 1634307301}
   - {fileID: 1296865154}
   - {fileID: 1547933797}
-  - {fileID: 1972045982}
-  - {fileID: 685918271}
-  - {fileID: 138508697}

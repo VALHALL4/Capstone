@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 550056546708862047}
   - component: {fileID: 1590070091176860638}
   - component: {fileID: 6821200155249984928}
+  - component: {fileID: 6327342337882986550}
   m_Layer: 10
   m_Name: Pin
   m_TagString: SafePin
@@ -346,3 +347,16 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &6327342337882986550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8144448282679074777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5fcfb6066ac99439e10ebc9943e065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyDelay: 5
