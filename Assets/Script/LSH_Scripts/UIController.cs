@@ -11,6 +11,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject[] grabText;
     [SerializeField] private GameObject[] moveToExhibitText;
     [SerializeField] private GameObject[] FESceneObjects;
+    [SerializeField] private GameObject startPlate;
     public static UIController instance = null;
     private int num = 0;
 
@@ -78,7 +79,13 @@ public class UIController : MonoBehaviour
 
         startText[startText.Length - 1].SetActive(false);
         panelClose();
+        plateOpen();
 
+    }
+
+    private void plateOpen()
+    {
+        if (startPlate != null) startPlate.SetActive(true);
     }
 
     public IEnumerator behaviourFirst()
