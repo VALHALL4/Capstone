@@ -7,9 +7,12 @@ public class FadeIn : MonoBehaviour
 {
     [SerializeField]
     private Image dim;
+    [SerializeField]
+    private GameObject canvasGo;
 
     private void Awake()
     {
+        this.canvasGo.SetActive(true);
         this.StartCoroutine(CoFadeIn());
     }
     
@@ -28,5 +31,6 @@ public class FadeIn : MonoBehaviour
             }
             yield return null;
         }
+        this.canvasGo.SetActive(false);
     }
 }

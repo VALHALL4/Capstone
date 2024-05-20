@@ -2353,7 +2353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &256260485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2366,7 +2366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7add0c9439981c04692f0c95e1ff41c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dim: {fileID: 0}
+  dim: {fileID: 1407397534}
+  canvasGo: {fileID: 1407397535}
 --- !u!4 &256260486
 Transform:
   m_ObjectHideFlags: 0
@@ -8199,6 +8200,22 @@ Transform:
 --- !u!4 &1407397533 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7707921526951363102, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+  m_PrefabInstance: {fileID: 1407397530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1407397534 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6543756382025156944, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+  m_PrefabInstance: {fileID: 1407397530}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1407397535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2078446273297050070, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
   m_PrefabInstance: {fileID: 1407397530}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1413405067
