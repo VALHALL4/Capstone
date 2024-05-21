@@ -2155,6 +2155,99 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &2249965414795131988
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4688734
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00004523697
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.009142399
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 969774799819251422, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281823381090978309, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281823381090978309, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607327047162132855, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: effectObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6277249174830404743, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6277249174830714273, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6277249174830714273, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6277249174830714273, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6277249174845938451, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6277249174845938451, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080683022402381147, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
+      propertyPath: m_Name
+      value: Throw Fire Exitinguisher
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 490b98329f59825499d7bb35579c8d13, type: 3}
 --- !u!1001 &6090369804628455428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2222,3 +2315,4 @@ SceneRoots:
   - {fileID: 1910042696}
   - {fileID: 1308637659}
   - {fileID: 1446920458}
+  - {fileID: 2249965414795131988}
