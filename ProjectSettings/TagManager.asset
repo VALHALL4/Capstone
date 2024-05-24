@@ -28,6 +28,7 @@ TagManager:
   - respawnArea
   - FireExtinguisher
   - SafePin
+  - OutsideElevator
   layers:
   - Default
   - TransparentFX
