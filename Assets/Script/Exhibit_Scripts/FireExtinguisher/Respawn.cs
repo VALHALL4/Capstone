@@ -11,7 +11,7 @@ public class Respawn : MonoBehaviour
     void Start()
     {
         // 최초에는 리스폰할 오브젝트를 생성합니다.
-        RespawnFE();
+        //RespawnFE();
     }
 
     void Update()
