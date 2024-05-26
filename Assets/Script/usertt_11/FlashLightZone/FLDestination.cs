@@ -46,7 +46,7 @@ public class FLDestination : MonoBehaviour
        
         
         canvas2.SetActive(false);
-        SceneManager.LoadScene("Tutorial Scene");
+        SceneManager.LoadScene("Exhibit Scene");
 
     }
 

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class UIPrefabPlayButton : MonoBehaviour
 {
-   public GameObject[] gameObject1 = new GameObject[27];
+
+    public int countdownTime = 1;
+    public GameObject[] gameObject1 = new GameObject[27];
    public GameObject gameObject2;
    public GameObject gameObject3;
    public GameObject gameObject4;
@@ -22,8 +24,7 @@ public class UIPrefabPlayButton : MonoBehaviour
     public GameObject ob5;
     public GameObject ob6;
 
-    public Material omat1;
-    public Material omat2;
+   
     public Material omat3;
     public Material omat4;
     public Material omat5;
@@ -31,9 +32,28 @@ public class UIPrefabPlayButton : MonoBehaviour
 
     public GameObject WallCover1;
     public GameObject UI;
+    public void CountDown()
+    {
+        StartCoroutine(CountdownToStart());
+    }
 
+    IEnumerator CountdownToStart()
+    {
+        while (countdownTime > 0)
+        {
+            yield return new WaitForSeconds(1f);
+
+            countdownTime--;
+        }
+
+
+        UI.SetActive(false);
+
+
+    }
     public void ButtonClick()
     {
+        GetComponent<AudioSource>().Play();
         for (int i = 0; i < 20; i++)
         {
             gameObject1[i].GetComponent<MeshRenderer>().material = mat1;
@@ -51,8 +71,7 @@ public class UIPrefabPlayButton : MonoBehaviour
         gameObject5.GetComponent<MeshRenderer>().material = mat3;
         gameObject4.SetActive(true);
 
-        ob1.GetComponent<MeshRenderer>().material = omat1;
-        ob2.GetComponent<MeshRenderer>().material = omat2;
+      
         ob3.GetComponent<MeshRenderer>().material = omat3;
 
 
@@ -63,6 +82,8 @@ public class UIPrefabPlayButton : MonoBehaviour
 
         RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Trilight;
         WallCover1.SetActive(false);
-        UI.SetActive(false);
+        CountDown();
+        
+
     }
 }
