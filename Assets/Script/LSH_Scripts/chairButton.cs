@@ -17,7 +17,7 @@ public class chairButton : MonoBehaviour
 
     private IEnumerator coolTime()
     {
-       audioSource.Play();
+        audioSource.Play();
         yield return new WaitForSeconds(10f);
         CoolTime = null;
     }

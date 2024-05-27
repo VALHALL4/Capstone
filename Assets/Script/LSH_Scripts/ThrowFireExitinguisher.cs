@@ -7,9 +7,9 @@ public class ThrowFireExitinguisher : MonoBehaviour
 {
     [SerializeField]
     private GameObject meshObject;
-    [SerializeField]
-    private GameObject effectObject;
 
+    [SerializeField]
+    private GameObject particle;
 
 
 
@@ -29,7 +29,6 @@ public class ThrowFireExitinguisher : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         meshObject.SetActive(false);
-        effectObject.SetActive(true);
 
         OnFireExtinguisherThrow?.Invoke();
 
@@ -39,7 +38,7 @@ public class ThrowFireExitinguisher : MonoBehaviour
             hitObject.transform.GetComponent<ParticleSystem>().Stop();
             hitObject.transform.GetComponent<AudioSource>().Stop();
         }
-
+        Instantiate(particle, transform.position, particle.transform.rotation);
         Destroy(transform.parent.gameObject, 4);
     }
     
