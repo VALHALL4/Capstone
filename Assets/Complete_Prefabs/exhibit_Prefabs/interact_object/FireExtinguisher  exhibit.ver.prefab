@@ -4951,6 +4951,7 @@ GameObject:
   - component: {fileID: 3287160438414695770}
   - component: {fileID: 1952813068319832772}
   - component: {fileID: 6322535385268409253}
+  - component: {fileID: 8621473491901096489}
   m_Layer: 10
   m_Name: FireExtinguisher  exhibit.ver
   m_TagString: FireExtinguisher
@@ -5297,6 +5298,20 @@ CapsuleCollider:
   m_Height: 0.8210407
   m_Direction: 1
   m_Center: {x: 1.574897e-17, y: 0.34269807, z: 0.002175532}
+--- !u!114 &8621473491901096489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3565007595953703403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd7f3f66a86b9d45afcedca86a8d271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstPreview: {fileID: 6476946463673647311}
+  secondPreview: {fileID: 281786512946712211}
 --- !u!1 &3859816174010470860
 GameObject:
   m_ObjectHideFlags: 0

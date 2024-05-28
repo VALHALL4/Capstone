@@ -10,8 +10,8 @@ public class FEchangeText : MonoBehaviour
     public TextMeshProUGUI instructionText;
     public GameObject TFE;
     public Transform TFErespawnpos;
-    public GameObject Fire;
-    public Transform Firerespawnpos;
+    //public GameObject Fire;
+    public GameObject Firerespawnpos;
 
     public GameObject firstPreview;
     public GameObject secondPreview;
@@ -49,6 +49,7 @@ public class FEchangeText : MonoBehaviour
 
     private void Start()
     {
+
         instructionText.color = new Color32(0, 0, 0, 255);
         audioSource = GetComponent<AudioSource>();
 
@@ -68,8 +69,8 @@ public class FEchangeText : MonoBehaviour
     {
         if (!safetyPinPulled && !startSpraying && !fireExtinguisherThrown && this != null)
         {
-            firstPreview.SetActive(false);
-            secondPreview.SetActive(true);
+            //firstPreview.SetActive(false);
+            //secondPreview.SetActive(true);
             instructionText.text = "소화기 손잡이 부분에 위치한 안전핀을 뽑아주세요";
             playAudio();
             safetyPinPulled = true;
@@ -81,7 +82,7 @@ public class FEchangeText : MonoBehaviour
     {
         if (safetyPinPulled && !startSpraying && !fireExtinguisherThrown && this != null)
         {
-            secondPreview.SetActive(false);
+            //secondPreview.SetActive(false);//destory 되면 프리뷰 오브젝트가 사라져서 접근 불가
             instructionText.text = "불을 향해 호스를 조준하고 버튼을 눌러 분사하세요";
             playAudio();
             startSpraying = true;
@@ -108,7 +109,7 @@ public class FEchangeText : MonoBehaviour
             instructionText.text = "투척용 소화기는 준비과정 필요없이 사용이 가능한 특수 소화기입니다. 투척용 소화기를 들고 불을 향해 던져보세요";
             TFE.SetActive(true);
             //Instantiate(TFE, TFErespawnpos);
-            Instantiate(Fire, Firerespawnpos);
+            Firerespawnpos.SetActive(true);
             playAudio();
             fireExtinguisherThrown = true;
         }
