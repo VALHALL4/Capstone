@@ -7749,6 +7749,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93dde07c4108c54abde4428532378ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dim: {fileID: 1912967919}
+  canvasGo: {fileID: 1912967920}
   panelindex:
   - {fileID: 268301665}
   - {fileID: 876572459}
@@ -12695,6 +12697,22 @@ Transform:
 --- !u!20 &1912967918 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2875493046907745462, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+  m_PrefabInstance: {fileID: 1912967915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1912967919 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6543756382025156944, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+  m_PrefabInstance: {fileID: 1912967915}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1912967920 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2078446273297050070, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
   m_PrefabInstance: {fileID: 1912967915}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1919531806

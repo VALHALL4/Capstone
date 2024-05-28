@@ -2,8 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 public class FLDestination : MonoBehaviour
 {
+    [SerializeField]
+    private Image dim;
+    [SerializeField]
+    private GameObject canvasGo;
+
     public int countdownTime=3;
     public GameObject canvas2;
 
@@ -18,36 +25,45 @@ public class FLDestination : MonoBehaviour
     public Material mat2;
     public Material mat3;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void CountDown()
     {
-        StartCoroutine(CountdownToStart());
+        //StartCoroutine(CountdownToStart());
+        this.canvasGo.SetActive(true);
+        StartCoroutine(CoFadeOut());
+
     }
 
-    IEnumerator CountdownToStart()
+    //IEnumerator CountdownToStart()
+    //{
+    //    while (countdownTime > 0)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+
+    //        countdownTime--;
+    //    }
+
+
+    //    canvas2.SetActive(false);
+    //    SceneManager.LoadScene("Exhibit Scene");
+
+    //}
+
+    private IEnumerator CoFadeOut()
     {
-        while (countdownTime > 0)
+        Color color = this.dim.color;
+
+        while (true)
         {
-            yield return new WaitForSeconds(1f);
+            color.a += 0.01f;
+            this.dim.color = color;
 
-            countdownTime--;
+            if (color.a >= 1)
+            {
+                break;
+            }
+            yield return null;
         }
-       
-        
-        canvas2.SetActive(false);
         SceneManager.LoadScene("Exhibit Scene");
-
     }
 
     private void OnTriggerEnter(Collider collider)

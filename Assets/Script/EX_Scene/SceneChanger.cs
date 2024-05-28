@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class SceneChanger : MonoBehaviour
 {
-    
+    [SerializeField]
+    private Image dim;
+    [SerializeField]
+    private GameObject canvasGo;
+
     public string sceneName;
     public GameObject canvas;
     public TextMeshProUGUI instructionText;
@@ -31,7 +36,27 @@ public class SceneChanger : MonoBehaviour
         instructionText.color = new Color32(255, 255, 255, 255);
         yield return new WaitForSeconds(3.0f);
         instructionText.text = "잠시 후 전시관으로 이동합니다.";
-        yield return new WaitForSeconds(delay);
+        this.canvasGo.SetActive(true);
+        this.StartCoroutine(CoFadeOut());
+
+    }
+
+    private IEnumerator CoFadeOut()
+    {
+        Color color = this.dim.color;
+
+        while (true)
+        {
+            color.a += 0.01f;
+            this.dim.color = color;
+
+            if (color.a >= 1)
+            {
+                break;
+            }
+            yield return null;
+        }
         SceneManager.LoadScene(sceneName);
     }
+
 }

@@ -3556,10 +3556,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 344857cfdcc26fc46b47e49743dabb8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dim: {fileID: 1972685812}
+  canvasGo: {fileID: 1972685811}
   instructionText: {fileID: 1312173742}
   TFE: {fileID: 417538854}
   TFErespawnpos: {fileID: 1369533911}
-  Fire: {fileID: 7332089973750432906, guid: dbd04facd82d4ff439093a563aff004f, type: 3}
   Firerespawnpos: {fileID: 1976972177}
   firstPreview: {fileID: 2013270508}
   secondPreview: {fileID: 888092645}
@@ -4459,6 +4460,22 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 2875493046907745462, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
   m_PrefabInstance: {fileID: 1972685809}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1972685811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2078446273297050070, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+  m_PrefabInstance: {fileID: 1972685809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1972685812 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6543756382025156944, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
+  m_PrefabInstance: {fileID: 1972685809}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1975759694
 GameObject:
   m_ObjectHideFlags: 0

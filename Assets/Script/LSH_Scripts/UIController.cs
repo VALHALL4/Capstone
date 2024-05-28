@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
+    [SerializeField]
+    private Image dim;
+    [SerializeField]
+    private GameObject canvasGo;
+
     [SerializeField] private GameObject[] panelindex;
     [SerializeField] private GameObject[] startText;
     [SerializeField] private GameObject[] behaviourText;
@@ -144,7 +150,26 @@ public class UIController : MonoBehaviour
         moveToExhibitText[moveToExhibitText.Length - 1].SetActive(false);
         panelClose();
 
-        SceneManager.LoadScene("Exhibit Scene");
+        //SceneManager.LoadScene("Exhibit Scene");
+        this.canvasGo.SetActive(true);
+        this.StartCoroutine(CoFadeOut());
     }
 
+    private IEnumerator CoFadeOut()
+    {
+        Color color = this.dim.color;
+
+        while (true)
+        {
+            color.a += 0.01f;
+            this.dim.color = color;
+
+            if (color.a >= 1)
+            {
+                break;
+            }
+            yield return null;
+        }
+        SceneManager.LoadScene("Exhibit Scene");
+    }
 }

@@ -7,6 +7,11 @@ using UnityEngine.SceneManagement;
 
 public class FEchangeText : MonoBehaviour
 {
+    [SerializeField]
+    private Image dim;
+    [SerializeField]
+    private GameObject canvasGo;
+
     public TextMeshProUGUI instructionText;
     public GameObject TFE;
     public Transform TFErespawnpos;
@@ -122,13 +127,35 @@ public class FEchangeText : MonoBehaviour
             instructionText.text = "두 소화기 모두 기능은 동일하지만 사용방법과 효과에 차이가 존재합니다. 각각의 소화기 정보는 앞에있는 정보창에서 읽어보시길 바랍니다";
             playAudio();
             canvas.SetActive(true);
-            StartCoroutine(moveScene());
+            this.canvasGo.SetActive(true);
+            this.StartCoroutine(CoFadeOut());
         }
     }
-    private IEnumerator moveScene()
+
+    private IEnumerator CoFadeOut()
     {
+        Color color = this.dim.color;
+
         yield return new WaitForSeconds(25.0f);
+
+        while (true)
+        {
+            color.a += 0.01f;
+            this.dim.color = color;
+
+            if (color.a >= 1)
+            {
+                break;
+            }
+            yield return null;
+        }
         SceneManager.LoadScene("Exhibit Scene");
     }
+
+    //private IEnumerator moveScene()
+    //{
+    //    yield return new WaitForSeconds(25.0f);
+    //    SceneManager.LoadScene("Exhibit Scene");
+    //}
 
 }
