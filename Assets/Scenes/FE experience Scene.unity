@@ -3561,7 +3561,7 @@ MonoBehaviour:
   instructionText: {fileID: 1312173742}
   TFE: {fileID: 417538854}
   TFErespawnpos: {fileID: 1369533911}
-  Firerespawnpos: {fileID: 1976972177}
+  Firerespawnpos: {fileID: 1976972176}
   firstPreview: {fileID: 2013270508}
   secondPreview: {fileID: 888092645}
   audioClips:
@@ -3932,6 +3932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93dde07c4108c54abde4428532378ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dim: {fileID: 0}
+  canvasGo: {fileID: 0}
   panelindex:
   - {fileID: 923036600}
   - {fileID: 2130768795}
