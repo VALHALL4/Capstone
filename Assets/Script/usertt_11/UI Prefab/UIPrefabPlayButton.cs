@@ -37,10 +37,11 @@ public class UIPrefabPlayButton : MonoBehaviour
 
 
     public Material MatTest;
-        
+    public GameObject light;
 
 
-   
+
+
     public void ButtonClick()
     {
         sound.GetComponent<AudioSource>().Play();
@@ -73,6 +74,7 @@ public class UIPrefabPlayButton : MonoBehaviour
         RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Trilight;
         WallCover1.SetActive(false);
         RenderSettings.skybox = MatTest;
+        light.SetActive(false);
         UI.SetActive(false);
 
     }
