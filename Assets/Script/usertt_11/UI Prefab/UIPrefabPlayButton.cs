@@ -30,30 +30,20 @@ public class UIPrefabPlayButton : MonoBehaviour
     public Material omat5;
     public Material omat6;
 
+    public GameObject sound;
+
     public GameObject WallCover1;
     public GameObject UI;
-    public void CountDown()
-    {
-        StartCoroutine(CountdownToStart());
-    }
-
-    IEnumerator CountdownToStart()
-    {
-        while (countdownTime > 0)
-        {
-            yield return new WaitForSeconds(1f);
-
-            countdownTime--;
-        }
 
 
-        UI.SetActive(false);
+    public Material MatTest;
+        
 
 
-    }
+   
     public void ButtonClick()
     {
-        GetComponent<AudioSource>().Play();
+        sound.GetComponent<AudioSource>().Play();
         for (int i = 0; i < 20; i++)
         {
             gameObject1[i].GetComponent<MeshRenderer>().material = mat1;
@@ -82,8 +72,8 @@ public class UIPrefabPlayButton : MonoBehaviour
 
         RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Trilight;
         WallCover1.SetActive(false);
-        CountDown();
-        
+        RenderSettings.skybox = MatTest;
+        UI.SetActive(false);
 
     }
 }
