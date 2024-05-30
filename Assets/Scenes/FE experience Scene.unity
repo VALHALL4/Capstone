@@ -3979,6 +3979,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1b687a09c4343384fa9c77f78bd4c4a3, type: 3}
   - {fileID: 8300000, guid: 8a69aefbcd46432438ce372b319a0375, type: 3}
   - {fileID: 8300000, guid: ee6eb1e1447e315439bdca8173f98cd7, type: 3}
+  - {fileID: 8300000, guid: 9ffa8b4fd5d1e004fa006481cfeab841, type: 3}
+  Moveaudio: {fileID: 8300000, guid: 9ffa8b4fd5d1e004fa006481cfeab841, type: 3}
   canvas: {fileID: 154681735}
 --- !u!114 &1312173744
 MonoBehaviour:

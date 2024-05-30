@@ -22,6 +22,7 @@ public class FEchangeText : MonoBehaviour
     public GameObject secondPreview;
 
     public AudioClip[] audioClips;
+  
     private AudioSource audioSource;
     private int audioIndex = 0;
     public GameObject canvas;
@@ -127,6 +128,7 @@ public class FEchangeText : MonoBehaviour
             instructionText.text = "두 소화기 모두 기능은 동일하지만 사용방법과 효과에 차이가 존재합니다. 각각의 소화기 정보는 앞에있는 정보창에서 읽어보시길 바랍니다";
             playAudio();
             canvas.SetActive(true);
+            playAudio();
             this.canvasGo.SetActive(true);
             this.StartCoroutine(CoFadeOut());
         }

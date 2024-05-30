@@ -72548,6 +72548,7 @@ MonoBehaviour:
   sceneName: Exhibit Scene
   canvas: {fileID: 1120959295}
   instructionText: {fileID: 1120959296}
+  moveSceneAudio: {fileID: 8300000, guid: 9ffa8b4fd5d1e004fa006481cfeab841, type: 3}
   delay: 5
 --- !u!1 &1634307300
 GameObject:
