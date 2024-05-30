@@ -38,7 +38,7 @@ public class UIPrefabPlayButton : MonoBehaviour
 
     public Material MatTest;
     public GameObject light;
-
+    public GameObject light2;
 
 
 
@@ -53,10 +53,10 @@ public class UIPrefabPlayButton : MonoBehaviour
         {
             gameObject1[i].GetComponent<MeshRenderer>().material = mat2;
         }
-        for (int i = 0; i < 6; i++)
-        {
-            gameObject6[i].SetActive(true);
-        }
+        //for (int i = 0; i < 6; i++)
+        //{
+        //    gameObject6[i].SetActive(true);
+        //}
         gameObject2.GetComponent<MeshRenderer>().material = mat1;
         gameObject3.GetComponent<MeshRenderer>().material = mat1;
         gameObject5.GetComponent<MeshRenderer>().material = mat3;
@@ -71,10 +71,12 @@ public class UIPrefabPlayButton : MonoBehaviour
         ob6.GetComponent<MeshRenderer>().material = omat6;
 
 
-        RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Trilight;
+       // RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Trilight;
         WallCover1.SetActive(false);
         RenderSettings.skybox = MatTest;
+        
         light.SetActive(false);
+        light2.SetActive(true);
         UI.SetActive(false);
 
     }
