@@ -13951,10 +13951,6 @@ PrefabInstance:
       propertyPath: elevatorAnim
       value: 
       objectReference: {fileID: 6603413713652973864}
-    - target: {fileID: 2078446273297050070, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5876750284993544427, guid: 41005b02685f3ab4e8433e97fc72855a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
