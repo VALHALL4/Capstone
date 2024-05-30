@@ -87,9 +87,12 @@ public class FireExtinguisher : MonoBehaviour
         if (Physics.Raycast(spraypos.position, spraypos.up, out hit, rayLength, LayerMask.GetMask("Fire")))
         {
             //hit.transform.gameObject.SendMessage() 
-            
-            Destroy(hit.collider.gameObject);
-
+            FireDestory fire = hit.collider.gameObject.GetComponent<FireDestory>();
+            if(fire != null)
+            {
+                fire.HitByRay();
+            }
+          
         }
     }
     private void OnDrawGizmos()
