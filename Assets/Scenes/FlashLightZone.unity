@@ -802,6 +802,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2709854231925858999, guid: 3370d20a1865bce4eaeea243a701a6eb, type: 3}
+      propertyPath: gameObject6.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709854231925858999, guid: 3370d20a1865bce4eaeea243a701a6eb, type: 3}
       propertyPath: gameObject6.Array.data[2]
       value: 
       objectReference: {fileID: 0}
